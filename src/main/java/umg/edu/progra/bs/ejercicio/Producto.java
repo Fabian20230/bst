@@ -14,10 +14,10 @@ public class Producto implements Comparable<Producto> {
         this.precio = precio;
     }
 
-    @Override
-    public String toString() {
-        return "Producto{" + "id=" + id + ", nombre=" + nombre + ", categoria=" + categoria + ", precio=" + precio + '}';
-    }
+//    @Override
+//    public String toString() {
+//        return "Producto{" + "id=" + id + ", nombre=" + nombre + ", categoria=" + categoria + ", precio=" + precio + '}';
+//    }
 
     public int getId() {
         return id;
